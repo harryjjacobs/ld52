@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "Bog",
+	"display_name_bool": true,
+	"id": "character-1673196809.json",
+	"mirror_portraits": false,
+	"name": "character-bog.json",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/bog.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

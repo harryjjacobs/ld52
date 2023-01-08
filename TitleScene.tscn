@@ -1,0 +1,65 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://addons/dialogic/Editor/Theme/MainTheme.tres" type="Theme" id=1]
+[ext_resource path="res://fonts/ShareTechMono-Regular.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://TitleScene.gd" type="Script" id=4]
+[ext_resource path="res://art/20230107_154334.png" type="Texture" id=5]
+
+[sub_resource type="DynamicFont" id=7]
+size = 100
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=6]
+size = 50
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxEmpty" id=2]
+
+[sub_resource type="StyleBoxEmpty" id=3]
+
+[sub_resource type="StyleBoxEmpty" id=4]
+
+[sub_resource type="StyleBoxEmpty" id=5]
+
+[node name="TitleScene" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( -2217, -1465 )
+script = ExtResource( 4 )
+
+[node name="Background" type="TextureRect" parent="."]
+margin_left = -14.0
+margin_top = -5.0
+margin_right = 1932.0
+margin_bottom = 1119.0
+texture = ExtResource( 5 )
+expand = true
+stretch_mode = 2
+
+[node name="Title" type="Label" parent="."]
+margin_top = 193.0
+margin_right = 1917.0
+margin_bottom = 640.0
+custom_fonts/font = SubResource( 7 )
+text = "CyberHarvest"
+align = 1
+valign = 1
+
+[node name="Play" type="Button" parent="Title"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -83.5
+margin_top = 113.0
+margin_right = 85.5
+margin_bottom = 169.0
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 6 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 4 )
+custom_styles/normal = SubResource( 5 )
+text = "Play"
+
+[connection signal="pressed" from="Title/Play" to="." method="_on_Play_pressed"]

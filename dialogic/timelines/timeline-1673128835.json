@@ -1,0 +1,325 @@
+{
+	"events": [
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673128850.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673096005.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.7"
+		},
+		{
+			"character": "character-1673128850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What do you want?\nI'm gonna need some convincing buddy, to make sure you're human and not one of them."
+		},
+		{
+			"character": "character-1673096005.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fire away"
+		},
+		{
+			"character": "character-1673128850.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "If you could meet any historical figure, who would it be and why?"
+		},
+		{
+			"choice": "Alan Turing.... no reason",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Jesus",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.3"
+		},
+		{
+			"character": "character-1673128850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ok... "
+		},
+		{
+			"choice": "Albert Einstein",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.1"
+		},
+		{
+			"character": "character-1673128850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So you can steal his brain??"
+		},
+		{
+			"choice": "I'm not interested in meeting any historical figures",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.2"
+		},
+		{
+			"character": "character-1673128850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well that's very suspicious."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": ">=",
+			"definition": "1673098984-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1673128850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Busted. I'm out of here"
+		},
+		{
+			"animation": "bounce_out.gd",
+			"animation_length": 0.1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673128850.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1673128850.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "One more question.\nDo you think that artificial intelligence will ever surpass human intelligence?"
+		},
+		{
+			"choice": "I'm worried it already has",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.3"
+		},
+		{
+			"character": "character-1673128850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Me too buddy"
+		},
+		{
+			"choice": "Definitely not",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.3"
+		},
+		{
+			"character": "character-1673128850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's exactly what a super-smart AI would say..."
+		},
+		{
+			"choice": "I don't know man, but it seems pretty smart already",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.1"
+		},
+		{
+			"character": "character-1673128850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah it does"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": ">=",
+			"definition": "1673098984-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1673128850.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Busted. I'm outta here."
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0.1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673128850.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 0.1
+		},
+		{
+			"change_timeline": "timeline-1673179787.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1673128835.json",
+		"name": "janine"
+	}
+}

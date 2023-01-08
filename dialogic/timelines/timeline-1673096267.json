@@ -1,0 +1,406 @@
+{
+	"events": [
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673096005.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh! Hello there.\nHave you heard about the cyborgs? Apparently they've turned bad are attacking people! Wait, you're not one of them right??"
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.5"
+		},
+		{
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hmm you seem pretty suspicious. Mind if I ask you a few questions?"
+		},
+		{
+			"character": "character-1673096005.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sure, go ahead. I've got nothing to hide"
+		},
+		{
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "If you could have any superpower, what would you choose and why?"
+		},
+		{
+			"choice": "The ability to read minds",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.4"
+		},
+		{
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Woah dude, why do you want to read my mind! You planning on harvesting my brains or something!"
+		},
+		{
+			"choice": "Infinite knowledge",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.4"
+		},
+		{
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Weird choice. I would've gone with the abilty to teleport or something."
+		},
+		{
+			"choice": "To feel love",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well that's pretty suspicious"
+		},
+		{
+			"choice": "Turning invisible",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.3"
+		},
+		{
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh yeah I bet you'd like that wouldn't you. Turning invisible so you can sneak up on me and steal my brain!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": ">=",
+			"definition": "1673098984-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You're one of them!!!! I knew it! I'm getting out of here"
+		},
+		{
+			"animation": "bounce_out.gd",
+			"animation_length": 0.1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": ">=",
+			"definition": "1673098984-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You're one of them!!!! I knew it! I'm getting out of here"
+		},
+		{
+			"animation": "bounce_out.gd",
+			"animation_length": 0.5,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Let's try another question.\nWhat do you think makes a person successful, and how do you define success?"
+		},
+		{
+			"choice": "Power",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.3"
+		},
+		{
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well you're either an evil cyborg or a sociopath. Either way I don't trust you"
+		},
+		{
+			"choice": "Being happy and making real human connections with others",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.3"
+		},
+		{
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aw that's sweet. I agree.\nWAIT A MINUTE!!! \"real HUMAN connections\"??? That's something a cyborg would say!"
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.6"
+		},
+		{
+			"choice": "Happiness",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.5"
+		},
+		{
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aww that's cute. I'm with you on that one, friend"
+		},
+		{
+			"choice": "Being rich",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yep, that checks out. You're definitely human."
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": ">=",
+			"definition": "1673098984-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You're one of them! I knew it! I'm outta here!"
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0.1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673096139.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 0.1
+		},
+		{
+			"change_timeline": "timeline-1673179787.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1673096267.json",
+		"name": "godfrey"
+	}
+}

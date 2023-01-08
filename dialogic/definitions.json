@@ -1,0 +1,25 @@
+{
+	"glossary": [
+
+	],
+	"variables": [
+		{
+			"id": "1673126678-787",
+			"name": "outcome",
+			"type": 0,
+			"value": "spare"
+		},
+		{
+			"id": "1673098984-648",
+			"name": "suspicion",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1673138819-339",
+			"name": "odds",
+			"type": 0,
+			"value": "0"
+		}
+	]
+}

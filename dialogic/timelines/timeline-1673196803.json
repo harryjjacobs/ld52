@@ -1,0 +1,323 @@
+{
+	"events": [
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673196809.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673096005.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.5"
+		},
+		{
+			"character": "character-1673196809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey. You know the drill stranger.\nLet me hit you with some Turing test questions."
+		},
+		{
+			"character": "character-1673096005.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sure go ahead."
+		},
+		{
+			"character": "character-1673196809.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Do you think that the universe is deterministic or indeterministic?"
+		},
+		{
+			"choice": " I believe that everything is predetermined. You are a passenger on a runaway train, helpless to the whims of the universe.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.5"
+		},
+		{
+			"choice": "You are the maker of your own destiny.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.3"
+		},
+		{
+			"character": "character-1673196809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alrighty then..."
+		},
+		{
+			"choice": "There is ongoing debate about this among scientists, philosophers, and others.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1673196809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's a very textbook answer.\nI don't trust you."
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.3"
+		},
+		{
+			"choice": "Wait a minute. How do I know you're not a cyborg?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1673196809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hmm sounds like you're stalling.\nI guess you make a good point thought. Can't trust anyone.\nGo on then, ask me a question."
+		},
+		{
+			"character": "character-1673096005.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Do you think that humans are fundamentally good or evil, or a combination of both?"
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.1"
+		},
+		{
+			"character": "character-1673196809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I believe that humans are born selfish and learn kindness. [br]I guess it also depends how you define \"good\" and \"evil\".\nDoes that answer your question?"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": ">=",
+			"definition": "1673098984-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1673190306.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Busted. I'm out of here"
+		},
+		{
+			"animation": "bounce_out.gd",
+			"animation_length": 0.1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673196809.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1673196809.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "One last question for you.\nI have a couple of human brains on me. I can give them to you if you spare my life?"
+		},
+		{
+			"choice": "I'm not a cyborg, why would I need them?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "/",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "character-1673196809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ok, but still not convinced"
+		},
+		{
+			"choice": "Give them to me. I will spare you human.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1673196809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gotcha!"
+		},
+		{
+			"choice": "No thanks",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": ">=",
+			"definition": "1673098984-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1673196809.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm outta here"
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0.1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673196809.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 0.1
+		},
+		{
+			"change_timeline": "timeline-1673179787.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1673196803.json",
+		"name": "bog"
+	}
+}

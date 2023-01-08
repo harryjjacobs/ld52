@@ -1,0 +1,319 @@
+{
+	"events": [
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673190306.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673096005.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.5"
+		},
+		{
+			"character": "character-1673190306.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Woah there. Don't come any closer.\nI need to make sure you're not a cyborg"
+		},
+		{
+			"character": "character-1673096005.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm human"
+		},
+		{
+			"character": "character-1673190306.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nothing personal, just can't be too careful these days"
+		},
+		{
+			"character": "character-1673190306.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What is your favorite book, movie, or TV show, and why?"
+		},
+		{
+			"choice": "\"Moby-Dick\" by Herman Melville is a masterpiece of American literature, you probably wouldn't get it though.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.5"
+		},
+		{
+			"character": "character-1673190306.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wow you're way too annoying to be a cyborg"
+		},
+		{
+			"choice": "Wallace and Gromit: The Wrong Trousers",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.3"
+		},
+		{
+			"character": "character-1673190306.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ok... "
+		},
+		{
+			"choice": "2001, A Space Odyssey - very entertaining heheh",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1673190306.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...\nAhahaha that's a good one\nAlright, I believe you. No cyborg would make a joke like that"
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 0.1
+		},
+		{
+			"change_timeline": "timeline-1673179787.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": ">=",
+			"definition": "1673098984-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1673190306.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Busted. I'm out of here"
+		},
+		{
+			"animation": "bounce_out.gd",
+			"animation_length": 0.1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673190306.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1673190306.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "One more question.\nDo androids dream of electric sheep?"
+		},
+		{
+			"choice": "I mean people don't even dream of sheep. When was the last time you had a dream about sheep?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.3"
+		},
+		{
+			"character": "character-1673190306.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You make a good point"
+		},
+		{
+			"choice": "I wouldn't know",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.4"
+		},
+		{
+			"character": "character-1673190306.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Suspicious..."
+		},
+		{
+			"choice": "I don't know, probably",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1673098984-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0.1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": ">=",
+			"definition": "1673098984-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1673190306.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There's something off about you. Bye"
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0.1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1673190306.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 0.1
+		},
+		{
+			"change_timeline": "timeline-1673179787.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1673195230.json",
+		"name": "j"
+	}
+}
